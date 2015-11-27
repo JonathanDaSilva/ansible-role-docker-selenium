@@ -14,6 +14,6 @@ docker_selenium_firefox_nodes: 1
 docker_selenium_chrome_nodes: 1
 
 docker_selenium_pull_image: missing
-docker_selenium_state: reloaded
+docker_selenium_state: started
 
 
