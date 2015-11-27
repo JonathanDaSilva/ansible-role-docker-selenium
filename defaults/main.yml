@@ -1,0 +1,19 @@
+---
+# defaults file for ansible-role-selenium-docker
+docker_selenium_version: 2.45.0
+docker_selenium_hub_name: selenium-hub
+docker_selenium_hub_port: 4444:4444
+
+docker_selenium_hub_image: selenium/hub
+docker_selenium_firefox_image: selenium/node-firefox
+docker_selenium_chrome_image: selenium/node-chrome
+
+docker_selenium_hub_link: "{{ docker_selenium_hub_name }}:hub"
+
+docker_selenium_firefox_nodes: 1
+docker_selenium_chrome_nodes: 1
+
+docker_selenium_pull_image: missing
+docker_selenium_state: reloaded
+
+
