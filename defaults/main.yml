@@ -1,5 +1,5 @@
 ---
-# defaults file for ansible-role-selenium-docker
+# defaults file for ansible-role-docker-selenium
 docker_selenium_version: 2.45.0
 docker_selenium_hub_name: selenium-hub
 docker_selenium_hub_port: 4444:4444

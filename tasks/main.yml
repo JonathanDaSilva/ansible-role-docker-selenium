@@ -1,5 +1,5 @@
 ---
-# tasks file for ansible-role-selenium-docker
+# tasks file for ansible-role-docker-selenium
 - name: Run a hub container.
   docker:
     name: "{{ docker_selenium_hub_name }}"
