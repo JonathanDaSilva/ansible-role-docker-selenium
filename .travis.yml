@@ -7,7 +7,6 @@ branches:
     - master
 
 install:
-  # Install Ansible.
   - sudo pip install ansible
 
   # Add ansible.cfg to pick up roles path.
