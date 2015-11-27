@@ -1,7 +1,7 @@
 Ansible Role: docker-selenium
 =========
 
-[![Build Status](https://travis-ci.org/jpparsons/ansible-role-docker-selenium.png)](https://travis-ci.org/jpparsons/ansible-role-docker-selenium)
+[![Build Status](https://travis-ci.org/jpparsons/ansible-role-docker-selenium.svg)](https://travis-ci.org/jpparsons/ansible-role-docker-selenium)
 
 An Ansible Role that runs selenium docker images built by [SeleniumHQ](https://github.com/SeleniumHQ/docker-selenium).
 
