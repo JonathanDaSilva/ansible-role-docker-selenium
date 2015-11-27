@@ -3,11 +3,6 @@ galaxy_info:
   description: Runs SeleniumHQ docker images in a selenium grid confuration for firefox and chrome. 
   license: GPLv2
   min_ansible_version: 1.2
-  #
-  # Below are all platforms currently available. Just uncomment
-  # the ones that apply to your role. If you don't see your
-  # platform on this list, let us know and we'll get it added!
-  #
   platforms:
   #- name: EL
   #  versions:
