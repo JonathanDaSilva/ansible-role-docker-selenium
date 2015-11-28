@@ -40,7 +40,7 @@ Run a specific version of selenium specifying the number of nodes and using debu
          - { role: ansible-role-docker-selenium, docker_selenium_version: 2.46.0, 
                    docker_selenium_chrome_nodes: 5, docker_selenium_firefox_image: "selenium/node-firefox-debug",
                    docker_selenium_firefox_nodes: 5,  docker_selenium_chrome_image: "selenium/node-chrome-debug",
-                   _docker_selenium_state: "reloaded" }
+                   docker_selenium_state: "reloaded" }
 
 License
 -------
