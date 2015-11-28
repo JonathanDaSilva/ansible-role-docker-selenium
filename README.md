@@ -2,6 +2,8 @@ Ansible Role: docker-selenium
 =========
 
 [![Build Status](https://travis-ci.org/jpparsons/ansible-role-docker-selenium.svg)](https://travis-ci.org/jpparsons/ansible-role-docker-selenium)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-jpparsons.docker-blue.svg)](https://galaxy.ansible.com/detail#/role/6268)
+[![GitHub Tags](https://img.shields.io/github/tag/jpparsons/ansible-role-docker-selenium.svg)](https://github.com/jpparsons/ansible-role-docker-selenium)
 
 An Ansible Role that runs selenium docker images built by [SeleniumHQ](https://github.com/SeleniumHQ/docker-selenium).
 
