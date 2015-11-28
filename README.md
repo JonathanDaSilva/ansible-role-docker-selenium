@@ -23,7 +23,7 @@ Role Variables
 - __docker_selenium_firefox_nodes__: the number of firefox container nodes to run.
 - __docker_selenium_chrome_nodes__: the number of chrome container nodes to run.
 - __docker_selenium_pull_image__: check docker registry for image, default is to pull if missing.
-- __docker_selenium_state__: default is to reload for any changes made to the container configuration.
+- __docker_selenium_state__: default is started, use reloaded for changes made.
 
 Dependencies
 ------------
@@ -39,7 +39,8 @@ Run a specific version of selenium specifying the number of nodes and using debu
       roles:
          - { role: ansible-role-docker-selenium, docker_selenium_version: 2.46.0, 
                    docker_selenium_chrome_nodes: 5, docker_selenium_firefox_image: "selenium/node-firefox-debug",
-                   docker_selenium_firefox_nodes: 5,  docker_selenium_chrome_image: "selenium/node-chrome-debug"  }
+                   docker_selenium_firefox_nodes: 5,  docker_selenium_chrome_image: "selenium/node-chrome-debug",
+                   _docker_selenium_state: "reloaded" }
 
 License
 -------
