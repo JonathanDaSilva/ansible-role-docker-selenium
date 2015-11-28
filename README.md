@@ -8,7 +8,7 @@ An Ansible Role that runs selenium docker images built by [SeleniumHQ](https://g
 Requirements
 ------------
 
-None.
+A host system that has Docker installed.
 
 Role Variables
 --------------
