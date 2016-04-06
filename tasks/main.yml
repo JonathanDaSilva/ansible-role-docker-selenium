@@ -7,6 +7,8 @@
     pull: "{{ docker_selenium_pull_image }}"
     state: "{{ docker_selenium_state }}"
     ports: "{{ docker_selenium_hub_port }}"
+    restart_policy: 'always'
+
 
 - name: Run firefox nodes.
   docker:
@@ -14,6 +16,7 @@
     name: "{{ item }}"
     pull: "{{ docker_selenium_pull_image }}"
     state: "{{ docker_selenium_state }}"
+    restart_policy: 'always'
     publish_all_ports: True
     links: "{{ docker_selenium_hub_link }}"
   with_sequence: count={{ docker_selenium_firefox_nodes }} format=selenium-firefox%03d
@@ -22,6 +25,7 @@
   docker:
     image: "{{ docker_selenium_chrome_image }}:{{ docker_selenium_version }}"
     name: "{{ item }}"
+    restart_policy: 'always'
     pull: "{{ docker_selenium_pull_image }}"
     state: "{{ docker_selenium_state }}"
     publish_all_ports: True
